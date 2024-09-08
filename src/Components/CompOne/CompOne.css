@@ -1,0 +1,10 @@
+.topHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    p {
+        margin: 10px;
+        padding-left: 100px;
+        font-weight: 700;
+    }
+}

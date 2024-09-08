@@ -1,0 +1,106 @@
+.create {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 110px;
+    margin-top: 40px; */
+    .title {
+        background-color: whitesmoke;
+        p {
+            padding: 30px 110px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+
+    label {
+        padding: 20px 110px;
+        font-weight: 500;
+    }
+
+    .bOne {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        margin: 0px 110px;
+        border: 2px solid rgb(213, 208, 208);
+        border-radius: 4px;
+        height: 40px;
+        width: 350px;
+        p {
+            color: grey;
+            padding-top: 12px;
+            font-size: 14px;
+        }
+        img {
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+    .bTwo {
+        padding: 0px 10px;
+        margin: 0px 110px;
+        height: 250px;
+        width: 700px;
+        border: 2px solid rgb(213, 208, 208);
+        border-radius: 4px;
+    }
+
+    .bThree {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 10px;
+        margin: 0px 110px;
+        margin-bottom: 10px;
+        height: 55px;
+        width: 200px;
+        border: 2px solid rgb(213, 208, 208);
+        border-radius: 4px;
+        p {
+            color: grey;
+            padding-top: 15px;
+            padding-right: 5px;
+            font-size: 17px;
+        }
+        img {
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+    .bFour {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        margin: 0px 110px;
+        margin-bottom: 10px;
+        height: 40px;
+        width: 200px;
+        border: 2px solid rgb(213, 208, 208);
+        border-radius: 4px;
+        p {
+            padding-top: 15px;
+            padding-right: 5px;
+            font-size: 14px;
+        }
+    }
+    button {
+        margin-top: 30px;
+        margin-left: 110px;
+        background-color: green;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        height: 45px;
+        width: 180px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 60px;
+    }
+}

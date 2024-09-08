@@ -1,0 +1,25 @@
+.icons {
+    background-color: rgb(4, 42, 52);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    /* margin: 15px 25px; */
+    padding: 55px 30px;
+    .innerIcon {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        img {
+            border-radius: 15px;
+        }
+        div {
+            padding-left: 15px;
+            padding-right: 150px;
+        }
+        
+    }
+    .border-right {
+        border-right: 1px solid white;
+    }
+}

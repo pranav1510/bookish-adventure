@@ -1,0 +1,41 @@
+.titleBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: rgb(6, 53, 65);
+    color: white;
+    padding-top: 125px;
+    .title {
+        padding-left: 240px;
+        padding-right: 140px;
+        p {
+            font-size: 50px;
+            padding-left: 15px;
+            border-left: 10px solid yellow;
+            border-right: 20px;
+        }
+        .subTitle {
+            font-size: 20px;
+            margin-top: 40px;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .create {
+            margin-top: 30px;
+            margin-bottom: 80px;
+            .submit {
+                margin-left: 20px;
+                font-weight: 600;
+                color: rgb(6, 53, 65);
+                background-color: white;
+                height: 50px;
+                width: 190px;
+                border: none;
+                border-radius: 8px;
+            }
+        }
+    }
+    .rocket {
+        margin-right: 120px;
+    }
+}

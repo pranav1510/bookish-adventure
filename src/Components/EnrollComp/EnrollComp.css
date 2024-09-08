@@ -1,0 +1,138 @@
+
+
+
+.mySearch {
+    background-color:  rgb(4, 42, 52);
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.529);
+    padding-bottom: 80px;
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        p {
+            padding: 50px 0px;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .subSearch {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 20px;
+            .bar{
+                margin-right: 30px;
+                width: 800px;
+                height: 50px;
+                padding-left: 10px;
+                border-radius: 13px;
+                border: none
+            }
+            .filters {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                font-weight: 600;
+                color: black;
+                background-color: white;
+                border-radius: 13px;
+                padding: 0px 20px;
+                border: none;
+                cursor: pointer;
+                span {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        .modal {
+            background-color: white;
+        }
+    }
+
+    .forFilter {
+        display: flex;
+        flex-direction: row;
+        padding-left: 320px;
+        .sub-filter {
+            margin-right: 20px;
+            background-color: rgba(192, 192, 192, 0.192);
+            border-radius: 25px;
+            padding: 10px 20px;
+            span {
+                font-size: 14px;
+                padding-right: 5px;
+            }
+        }
+    }
+}
+
+.block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 55px;
+    background-color: rgb(6, 53, 65);
+    padding: 80px 150px;
+    .card {
+        img {
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
+        }
+        .sub-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .theTopic {
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+            .des {
+                padding-bottom: 20px;
+            }
+
+            .status {
+                font-size: 9px;
+                font-weight: 600;
+                margin: 10px;
+                padding: 3px 12px;
+                border-radius: 7px;
+            }
+
+            .myText {
+                margin-bottom: 10px;
+                font-weight: 500;
+                font-size: 14px;
+                color: rgb(115, 115, 115);
+            }
+
+            .value{
+                font-size: 12px;
+                font-weight: 500;
+                color: rgb(115, 115, 115);
+            }
+
+            .time {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .participate {
+                margin: 20px;
+                padding: 15px 30px;
+                background-color: green;
+                color: white;
+                font-size: 14px;
+                font-weight: 500;
+                border-radius: 8px;
+            }
+        }
+        background-color: white;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+}

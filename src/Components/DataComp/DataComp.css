@@ -1,0 +1,111 @@
+.mainBlock {
+    background-color: rgb(4, 42, 52);
+    display: flex;
+    flex-direction: column;
+    .mainOne {
+        display: flex;
+        flex-direction: row;
+        background-color: orange;
+        width: 480px;
+        height: 35px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 120px;
+        border-radius: 5px;
+        padding: 6px;
+        p {
+            padding-left: 5px;
+        }
+    }
+    .title {
+        color: white;
+        margin-left: 120px;
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .subTitle {
+        color: white;
+        margin-left: 120px;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .mainTwo {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        height: 35px;
+        width: 80px;
+        margin-left: 120px;
+        margin-bottom: 80px;
+        padding: 8px;
+        color: rgb(4, 42, 52);
+        border-radius: 5px;
+        p {
+            padding-left: 2px;
+            font-weight: 500;
+        }
+        img {
+            height: 20px;
+            width: 20px;
+        }
+    }
+
+}
+
+.shadow {
+    .overView {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 110px;
+        padding-bottom: 15px;
+        padding-top: 25px;
+        .subView {
+            display: flex;
+            align-items: center;
+            .edit {
+                padding:5px 23px;
+                color:white;
+                font-weight: 400;
+                background-color: green;
+                border: none;
+                border-radius: 4px;
+                margin-right: 10px;
+            }
+            .delete {
+                padding:5px 18px;
+                color:red;
+                font-weight: 400;
+                background-color: white;
+                border: 1px solid red;
+                border-radius: 4px;
+                margin-right: 10px;
+            }
+        }
+        p {
+            padding:0px 10px;
+            font-size: 16px;
+            font-weight:550;
+            align-items: end;
+            border-bottom: green 5px solid;
+            border-radius: 4px;
+        }
+    }
+    box-shadow: 0px 6px whitesmoke;
+}
+
+.info {
+    padding-left: 120px;
+    padding-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    p {
+        padding-top: 20px;
+        color: rgb(105,105,105);
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

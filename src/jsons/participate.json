@@ -1,0 +1,74 @@
+[
+    {
+        "image": "/images/charts.png",
+        "color": "orange",
+        "textColor": "rgb(139, 64, 0)",
+        "status": "Upcoming",
+        "topic": "Data Science Bootcamp -",
+        "subTopic": "Graded Datathon",
+        "text" : "Starts in",
+        "time" : "00 : 15 : 22",
+        "value": "days   hours   mins",
+        "button": "Participate Now"
+    },
+    {
+        "image": "/images/butterfly.png",
+        "color": "orange",
+        "textColor": "rgb(139, 64, 0)",
+        "status": "Upcoming",
+        "topic": "Data Sprint 72 - Butterfly",
+        "subTopic": "Identification",
+        "text" : "Starts in",
+        "time" : "00 : 12 : 34",
+        "value": "days  hours  mins",
+        "button": "Participate Now"
+    },
+    {
+        "image": "images/snow.png",
+        "color": "green",
+        "textColor": "rgb(1, 50, 32)",
+        "status": "Active",
+        "topic": "Data Sprint 71 - Weather",
+        "subTopic": "Recognition",
+        "text" : "Ends in",
+        "time" : "01 : 17 : 10",
+        "value": "days  hours  mins",
+        "button": "Participate Now"
+    },
+    {
+        "image": "images/airplane.png",
+        "color": "green",
+        "textColor": "rgb(1, 50, 32)",
+        "status": "Active",
+        "topic": "Data Sprint 70 - Airline",
+        "subTopic": "Passenger Satisfaction",
+        "text" : "Ends in",
+        "time" : "00 : 11 : 27",
+        "value": "days  hours  mins",
+        "button": "Participate Now"
+    },
+    {
+        "image": "images/scholar.png",
+        "color": "pink",
+        "textColor": "rgb(170, 51, 106)",
+        "status": "Past",
+        "topic": "Engineering Graduates",
+        "subTopic": "Employment Outcomes",
+        "text" : "Ended on",
+        "time" : "16th May'2022 09:00 PM",
+        "value": "",
+        "button": "Participate Now"
+    },
+    {
+        "image": "images/bridge.png",
+        "color": "pink",
+        "textColor": "rgb(170, 51, 106)",
+        "status": "Past",
+        "topic": "Travel Insurance Claim",
+        "subTopic": "Prediction",
+        "text" : "Ended on",
+        "time" : "16th May'2022 09:00 PM",
+        "value": "",
+        "button": "Participate Now"
+    }
+]

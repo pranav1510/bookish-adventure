@@ -1,0 +1,23 @@
+[
+    {
+        "image": "/icons/NoteBook.png",
+        "text": "Prove your skills",
+        "subText": "Gain substantial experience by solving real-world problems and pit against others to come up with innovative solutions."
+    },
+    {
+        "image": "/icons/vector.png",
+        "text": "Learn from community",
+        "subText": "One can look and analyze the solutions submitted by the other Data Scientists in the community and learn from them."
+    },
+    {
+        "image": "/icons/robot.png",
+        "text": "Challenge yourself",
+        "subText": "There is nothing for you to lose by participating in a challenge. You can fail safe, learn out of the entire experience and bounce back harder."
+    },
+    {
+        "image": "/icons/idCard.png",
+        "text": "Earn recognition",
+        "subText": "You will stand out from the crowd if you do well in AI challenges, it not only helps you shine in the community but also earns rewards."
+    }
+
+]
